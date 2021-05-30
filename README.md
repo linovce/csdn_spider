@@ -5,12 +5,12 @@ csdn爬虫，爬取后台内容管理的markdown源数据。
 
 #### 使用说明
 
-1.  在CSDNSpider/spiders下创建两个文件夹“文章”、“cookie”
-2.  修改CSDN_Articles.py中url为自己的博客地址
-3.  运行CSDN_Login.py，微信扫描二维码登录
-4.  运行CSDN_spider.py，获取文章ID列表
-5.  运行CSDN_Articles.py，获取全部文章
-6.  3和5可直接运行，4需要在终端窗口输入命令运行：scrapy crawl csdn_spider
+1.  在CSDNSpider/spiders下创建两个文件夹“文章”、“cookie”；
+2.  修改CSDN_Articles.py中url为自己的博客地址；
+3.  运行CSDN_Login.py，微信扫描二维码登录；
+4.  运行CSDN_spider.py，获取文章ID列表；
+5.  运行CSDN_Articles.py，获取全部文章；
+6.  3和5可直接运行，4需要在终端窗口输入命令运行：scrapy crawl csdn_spider。
 
 #### 结果预览
 
